@@ -1,0 +1,179 @@
+/* @override 
+	http://localhost:8888/damot.org/wp-content/themes/damot_magazine/style.css
+	http://www.damot.org/wp-content/themes/damot_magazine/style.css
+*/
+
+/*
+Theme Name: DaMOT Magazine
+Theme URI: http://www.damot.org/
+Description: New theme for the blog at www.damot.org
+Version: 0.1
+Author: Marc-Oliver Teschke
+Author URI: http://www.marcoliverteschke.com/
+Tags: 1-column black transparent fuckie6 photo background
+*/
+
+@import "bp_screen.css";
+
+/*****Basic Elements*****/
+body {
+	background-color: #ddd1b8;
+	background-image: url('images/content_bg.png');
+	font-family: Georgia, 'Times New Roman';
+	font-size: 16px;
+}
+
+body * {
+	color: #5A4A43;
+}
+
+.container {
+	padding: 0 1em;
+}
+
+img {
+	border: 1px solid #6f6f6f;
+	margin: 0 .5em .5em 0;
+}
+
+p {
+	margin-bottom: .7em;
+}
+
+input[type=submit] {
+	background-color: #18130d;
+	color: #ffffff;
+	border: none;
+	padding: .5em;
+	-webkit-border-radius: .5em;
+}
+
+address {
+	font-style: normal;
+}
+
+/*****Generic Classes*****/
+/*.pagetitle{
+	padding: 0 0 0 12px;
+}*/
+
+/*****Basic Layout*****/
+/*#header, #content, #sidebar, #footer{
+	background-image: url('images/bg_75.png');
+}*/
+
+
+/*****Header*****/
+#header{
+	background-image: url('images/header_bg.png');
+}
+
+#header * {
+	color: #E5D9BE;
+}
+
+#header a:hover {
+	color: #E5D9BE;
+}
+
+#header a{
+	text-decoration: none;
+}
+
+#header h1{
+	margin: 0;
+	padding: 1em 0px .5em 0;
+}
+
+#header .description{
+	padding: 4.7em 12px 0px 0px;
+	text-align: right;
+}
+
+
+/*****Content*****/
+h2 a {
+	text-decoration: none;
+}
+
+.post h2 .the_time {
+	font-size: .5em;
+	margin-right: 1em;
+}
+
+.post h2 .comments {
+	font-size: .5em;
+	margin-left: 1em;	
+}
+
+#content{
+	margin-bottom: 3em;
+	margin-top: 1em;
+}
+
+.alignleft{
+	float: left;
+}
+
+.alignright{
+	float: right;
+}
+
+.navigation {
+	clear: both;
+	margin: 0 0 1.5em 0;
+}
+
+.navigation .article_nav {
+	font-size: 2em;
+	text-align: center;
+	width: 3%;
+	padding: 0 .5em;
+}
+
+.navigation .article_nav a {
+	text-decoration: none;
+}
+
+.navigation h2 {
+	width: 94%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.navigation .alignleft{
+	text-align: left;
+}
+
+.navigation .alignright{
+	text-align: right;
+}
+
+p.postmetadata {
+	margin-bottom: 2em;
+}
+
+
+/*****Footer*****/
+#footer{
+	background-image: url('images/footer_bg.png');
+/*	position: fixed;
+	bottom: 0;*/
+	width: 100%;
+}
+
+#footer * {
+	color: #E5D9BE;
+}
+
+#footer .span-8 {
+	margin: 0;
+	padding: 1em 0 1em 0;
+}
+
+#footer ul {
+	margin-bottom: 0;
+}
+
+
+/*****Etc*****/

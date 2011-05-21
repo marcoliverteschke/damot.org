@@ -1,0 +1,217 @@
+/* @override 
+	http://s295203872.online.de/damot.org/wp-content/themes/damot/style.css
+	http://www.damot.org/wp-content/themes/damot/style.css
+*/
+
+/*
+Theme Name: DaMOT
+Theme URI: http://www.damot.org/
+Description: Theme for the blog at www.damot.org.
+Version: 0.1
+Author: Marc-Oliver Teschke
+Author URI: http://www.marcoliverteschke.com/
+Tags: 2-column black transparent fuckie6 photo background
+*/
+
+@import "bp_screen.css";
+
+/*****Basic Elements*****/
+body {
+	background-attachment: fixed;
+	background-color: #e3edf1;
+	background-image: url('images/bg.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+body, a, #header a:hover, h2, h3 {
+	color: #1f1f1f;
+}
+
+a:hover{
+	color: #6f6f6f;
+}
+
+img {
+	border: 1px solid #6f6f6f;
+	margin: 0 .5em .5em .5em;
+}
+
+h2 a, h3 a{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: .7em;
+}
+
+input[type=submit] {
+	background-color: #6f6f6f;
+	color: #ffffff;
+	border: none;
+	-webkit-border-radius: .5em;
+}
+
+
+/*****Generic Classes*****/
+.pagetitle{
+	padding: 0 0 0 12px;
+}
+
+/*****Basic Layout*****/
+#header, #content, #sidebar, #footer{
+	background-image: url('images/bg_75.png');
+}
+
+
+/*****Header*****/
+#header{
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+}
+
+#header a{
+	text-decoration: none;
+}
+
+#header h1{
+	margin: 0;
+	padding: 1em 0px .5em 12px;
+}
+
+#header .description{
+	padding: 4.7em 12px 0px 0px;
+	text-align: right;
+}
+
+
+/*****Content*****/
+#content{
+	margin-bottom: 1em;
+	margin-top: 1em;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-right-radius: 10px;	
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-right-radius: 10px;	
+}
+
+.post{
+	border-bottom: 1px solid #1f1f1f;
+	padding: 0 12px 0 12px;
+}
+
+h2{
+	margin: 13px 0 .5em 0;
+}
+
+h3{
+	padding: .5em 12px 0 12px;
+}
+
+.commentlist{
+	padding: 0 0 0 12px;
+}
+
+#respond{
+	padding: 0 0 1em 12px;
+}
+
+#respond h3, .post h3{
+	padding-left: 0;
+}
+
+#commentform p{
+	margin: 0 0 .5em 0;
+}
+
+.alignleft{
+	float: left;
+}
+
+.alignright{
+	float: right;
+}
+
+.navigation{
+	padding: .5em 12px 2em 12px;
+}
+
+p.postmetadata {
+	margin-bottom: 26px;
+}
+
+
+/*****Sidebar*****/
+#sidebar{
+	margin-bottom: 1em;
+	margin-top: 1em;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-right-radius: 10px;	
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-right-radius: 10px;	
+}
+
+#sidebar ul{
+	list-style: none;
+}
+
+#sidebar h2{
+	font-size: 1.4em;
+}
+
+#sidebar ul ul {
+	margin-left: .5em;
+}
+
+#searchform{
+	margin: 1em 0 0 0;
+}
+
+
+/*****Footer*****/
+#footer{
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-right-radius: 10px;
+}
+
+#footer p{
+	margin: 0;
+	padding: 1em 0 1em 1em;
+}
+
+
+/*****Etc*****/
+#ie6_fu{
+	background-color: #fff100;
+	border: 3px solid #fd3938;
+	color: #000000;
+	font-family: "Comic Sans MS";
+	font-size: 2em;
+	position: absolute;
+	top: 5em;
+	margin: 0 auto 0 auto;
+	width: 944px;
+	z-index: 1000;
+}
+
+#ie6_fu p{
+	padding: 1em 1em 1em 1em;
+	margin: 0;
+}
+
+#ie6_fu a{
+	color: #0000FF;
+}
